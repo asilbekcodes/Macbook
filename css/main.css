@@ -91,6 +91,11 @@
   font-size: 20px;
 }
 
+.section-second {
+  display: flex;
+  justify-content: space-between;
+}
+
 * {
   margin: 0;
   font-family: Poppins, sans-serif;
