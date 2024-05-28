@@ -1,0 +1,30 @@
+.section-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 50px 0;
+    padding-left: 50px;
+    .section-first__item {
+        width: 500px;
+        .p-first{
+            font-size: 30px;
+        }
+        .p-second{
+            font-size: 50px;
+            margin: 20px 0 ;
+        }
+        .p-thire{
+            font-size: 25px;
+            color: gray;
+        }
+        button{
+            width: 200px;
+            height: 60px;
+            color: #fff;
+            background: rgba(255, 123, 78, 1);
+            border-radius: 20px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+    }
+}

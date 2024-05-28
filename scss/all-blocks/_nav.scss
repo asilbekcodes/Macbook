@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    .navbar__li {
+        display: flex;
+        gap: 50px;
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    .navbar__login {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        button{
+            width: 100px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: #FF7B4E ;
+        }
+    }
+}

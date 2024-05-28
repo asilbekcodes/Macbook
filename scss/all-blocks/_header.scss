@@ -1,0 +1,33 @@
+.header-bg {
+    background:#234A38;
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .content__item {
+            .btn-1{
+                background: rgba(255, 255, 255, 0.25);
+                width: 150px;
+                height: 40px;
+                color: #fff;
+                border-radius: 10px;
+            }
+            .p-1{
+                font-size: 60px;
+                color: #fff;
+                line-height: 1.4;
+            }
+            .p-2{
+                font-size: 30px;
+                color: rgba(255, 255, 255, 1);
+                margin: 10px 0 20px 0;
+            }
+            .btn-2{
+                width: 200px;
+                height: 50px;
+                background: rgba(255, 123, 78, 1);
+                border-radius: 20px;
+            }
+        }
+    }
+}
