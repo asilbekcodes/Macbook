@@ -70,3 +70,43 @@
     }
 
 }
+.section-thire {
+    background:#FFFFFF;
+    border-radius: 50px;
+    height: 480px;
+    margin: 50px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .section-thire__img-2{
+        img{
+            margin-bottom: 260px;
+        }
+    }
+    .section-thire__item{
+        width: 500px;
+        .item-p1{
+            font-size: 45px;
+        }
+        .item-p2{
+            font-size: 28px;
+            color: #868E8D;
+            margin: 50px 0;
+        }
+        .item-btn{
+            width: 150px;
+            height: 50px;
+            color: #fff;
+            background: #FF654D;
+            font-size: 15px;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+    .section-thire__img-1{
+        img{
+            margin-top: 260px;
+        }
+    }
+}
