@@ -3,6 +3,9 @@
     justify-content: space-between;
     align-items: center;
     color: #fff;
+    b{
+        font-size: 20px;
+    }
     .navbar__li {
         display: flex;
         gap: 50px;
@@ -20,6 +23,8 @@
             height: 35px;
             border-radius: 20px;
             background-color: #FF7B4E ;
+            border: none;
+            color: #fff;
         }
     }
 }

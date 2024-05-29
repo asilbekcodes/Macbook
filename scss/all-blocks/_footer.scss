@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    .footer_p {
+        color: #FF7B4E;
+        font-size: 20px;
+    }
+    .footer__a{
+        display: flex;
+        gap: 50px;
+        a{
+            text-decoration: none;
+            color: #828A89;
+        }
+    }
+    .footer__login {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        color: #828A89;
+        button{
+            width: 100px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: #FF7B4E ;
+            color: #FFFFFF;
+            border: none;
+        }
+    }
+}
